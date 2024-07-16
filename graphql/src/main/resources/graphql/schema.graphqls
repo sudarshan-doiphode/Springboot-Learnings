@@ -1,0 +1,17 @@
+type Cricketer{
+    id:ID!,
+    name:String,
+    runs:String,
+    wickets:String
+}
+
+type Query{
+    getCricketers:[Cricketer],
+    getCricketer(id:ID!):Cricketer
+}
+
+type Mutation{
+    createCricketer(name:String, runs:String, wickets:String):Cricketer,
+    updateCricketer(id:Int!, name:String, runs:String, wickets:String):Cricketer,
+    deleteCricketer(id:ID!):String
+}

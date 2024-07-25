@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: stocks-paketo-buildpacks
+
+server:
+  port: 9090
+

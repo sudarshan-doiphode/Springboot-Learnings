@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: validations
+
+server:
+  port: 8080

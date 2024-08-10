@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: value-config
+
+server:
+  port: 9090
+
+user:
+  name: Darsh

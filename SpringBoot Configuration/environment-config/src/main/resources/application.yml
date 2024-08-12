@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: environment-config
+
+server:
+  port: 8080
+
+api_endpoint: ${API_ENDPOINT}

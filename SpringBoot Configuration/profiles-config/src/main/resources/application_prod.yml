@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+app:
+  name: prod
+
+user:
+  email: kirti@example.com
+  address:
+    city: Pune
+    state: Maharashtra
+    country: India
+  mobile:
+    - 8045454545
+    - 1122112211

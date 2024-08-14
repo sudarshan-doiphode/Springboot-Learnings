@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: profiles-config
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active: "prod"
+
+server:
+  port: 9090
+
+app:
+  name: local-app
+
+user:
+  email: darsh@example.com
+  address:
+    city: Pune
+    state: Maharashtra
+    country: India
+  mobile:
+    - 9090909090
+    - 8080808080

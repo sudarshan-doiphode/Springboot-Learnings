@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+app:
+  name: qa-app
+
+user:
+  email: neha@example.com
+  address:
+    city: Mumbai
+    state: Maharashtra
+    country: India
+  mobile:
+    - 8080808090

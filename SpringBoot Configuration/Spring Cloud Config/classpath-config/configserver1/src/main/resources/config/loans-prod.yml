@@ -1,0 +1,9 @@
+user:
+  name: prod
+  mobile:
+    - 12211
+    - 12244
+  address:
+    city: Mumbai
+    state: MH
+  amount: 200

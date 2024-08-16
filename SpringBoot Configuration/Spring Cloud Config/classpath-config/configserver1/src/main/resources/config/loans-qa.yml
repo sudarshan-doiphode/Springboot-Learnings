@@ -1,0 +1,9 @@
+user:
+  name: qa
+  mobile:
+    - 12211
+    - 12244
+  address:
+    city: Nagpur
+    state: MH
+  amount: 200

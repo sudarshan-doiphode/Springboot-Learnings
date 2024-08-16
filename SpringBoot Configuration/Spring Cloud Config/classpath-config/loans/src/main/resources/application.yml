@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: loans
+  profiles:
+    active: qa
+  config:
+    import: configserver:http://localhost:8081
+
+server:
+  port: 8080

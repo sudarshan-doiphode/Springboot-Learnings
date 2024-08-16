@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: accounts
+  profiles:
+    active: qa
+  config:
+    import: configserver:http://localhost:7071
+
+server:
+  port: 8080

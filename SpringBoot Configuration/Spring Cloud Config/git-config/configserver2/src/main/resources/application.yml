@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: configserver2
+  profiles:
+    active: git
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sudarshan-doiphode/spring-cloud-config-files.git
+          default-label: main
+          clone-on-start: true
+#          search-paths: config   path in your repo if you created
+
+server:
+  port: 7071
